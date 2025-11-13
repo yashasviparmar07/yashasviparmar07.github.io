@@ -3,73 +3,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Yashasvi Parmar | Civil Engineer</title>
+  <title>Yashasvi Parmar | Civil Engineer Portfolio</title>
   <style>
-    body {
-      font-family: "Segoe UI", Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #222;
+    * {
       margin: 0;
       padding: 0;
-      text-align: center;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: linear-gradient(to bottom right, #0a2342, #005a9e);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
 
     header {
-      background-color: #0a2342;
-      color: #fff;
-      padding: 60px 20px;
+      text-align: center;
+      padding: 80px 20px 40px 20px;
     }
 
     h1 {
-      font-size: 2.2rem;
-      margin-bottom: 10px;
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-weight: 500;
+      color: #aad4ff;
+      margin-bottom: 25px;
     }
 
     p {
       font-size: 1.1rem;
-      margin: 10px auto;
-      max-width: 700px;
-      line-height: 1.6;
+      max-width: 750px;
+      margin: 0 auto 30px auto;
+      line-height: 1.7;
+      color: #e8f1ff;
     }
 
-    a.button {
+    .button {
       display: inline-block;
-      margin-top: 25px;
       background-color: #0078d7;
       color: #fff;
       text-decoration: none;
-      padding: 12px 25px;
-      border-radius: 6px;
+      padding: 12px 28px;
+      border-radius: 8px;
       font-weight: 600;
-      transition: background-color 0.3s;
+      transition: 0.3s;
     }
 
-    a.button:hover {
-      background-color: #005a9e;
+    .button:hover {
+      background-color: #005fa3;
+      transform: translateY(-2px);
+    }
+
+    .contact {
+      background: #fff;
+      color: #222;
+      text-align: center;
+      padding: 50px 20px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+      margin-top: auto;
+      box-shadow: 0 -5px 15px rgba(0,0,0,0.2);
+    }
+
+    .contact h3 {
+      font-size: 1.6rem;
+      margin-bottom: 15px;
+      color: #0a2342;
+    }
+
+    .contact p {
+      color: #444;
+      margin: 5px 0;
     }
 
     footer {
-      margin-top: 60px;
-      padding: 20px;
+      background-color: #0a2342;
+      padding: 15px;
+      text-align: center;
       font-size: 0.9rem;
-      color: #666;
+      color: #ccc;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Hi, I'm Yashasvi Parmar 👋</h1>
+    <h2>Civil Engineer | BIM Specialist | Cost Estimation Expert</h2>
     <p>
-      A passionate Civil Engineer specializing in design, BIM modeling, and cost estimation.  
-      I strive to transform creative visions into sustainable, real-world structures.
+      I’m passionate about transforming visionary designs into sustainable and functional structures.  
+      My expertise includes Building Information Modeling (BIM), structural design, and precise cost estimation.  
+      I thrive on projects that challenge creativity, collaboration, and innovation.
     </p>
     <a href="Yashasvi-Parmar.pdf" class="button" target="_blank">📄 View My Portfolio (PDF)</a>
   </header>
 
+  <section class="contact">
+    <h3>Get In Touch</h3>
+    <p>📍 Ontario, Canada</p>
+    <p>📞 +1 (437) 663-6069</p>
+    <p>✉️ <a href="mailto:yashasviparmar99@gmail.com" style="color:#005fa3; text-decoration:none;">yashasviparmar99@gmail.com</a></p>
+    <p>
+      🌐 <a href="https://www.linkedin.com/in/yashasviparmar" style="color:#005fa3; text-decoration:none;" target="_blank">LinkedIn Profile</a>
+    </p>
+  </section>
+
   <footer>
-    © 2025 Yashasvi Parmar | Ontario, Canada  
+    © 2025 Yashasvi Parmar | Civil Engineer | All Rights Reserved
   </footer>
+
 </body>
 </html>
-
-
