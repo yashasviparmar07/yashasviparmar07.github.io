@@ -6,3 +6,4 @@ document.querySelectorAll('.nav-links a').forEach(link => {
     target.scrollIntoView({ behavior: 'smooth' });
   });
 });
+
