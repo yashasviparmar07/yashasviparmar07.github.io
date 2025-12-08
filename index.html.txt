@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Yashasvi Parmar – Civil Engineer | Structural & Design Specialist. Expertise in design, structural assessment, BIM modeling, and cost estimation.">
+  <meta name="keywords" content="Civil Engineer, Structural Design, Revit, AutoCAD, Quantity Takeoff, Civil 3D, Construction, Project Management">
   <title>Yashasvi Parmar | Civil Engineer</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- Navigation -->
-  <nav class="navbar">
-    <div class="logo">Yashasvi Parmar</div>
-    <input type="checkbox" id="menu-toggle"/>
-    <label for="menu-toggle" class="hamburger">&#9776;</label>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav class="navbar" aria-label="Main Navigation">
+      <div class="logo">Yashasvi Parmar</div>
+      <input type="checkbox" id="menu-toggle" aria-controls="nav-links" aria-expanded="false"/>
+      <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">&#9776;</label>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -38,35 +42,35 @@
   <!-- Skills Section -->
   <section id="skills" class="section">
     <h2>Skills</h2>
-    <div class="skills-container">
-      <span>Structural & Civil Design</span>
-      <span>Revit, AutoCAD, Civil 3D</span>
-      <span>Quantity Takeoffs | Cost Estimation</span>
-      <span>Site Inspections | QA/QC</span>
-      <span>Microsoft Project | MS Office</span>
-    </div>
+    <ul class="skills-container">
+      <li>Structural & Civil Design</li>
+      <li>Revit, AutoCAD, Civil 3D</li>
+      <li>Quantity Takeoffs | Cost Estimation</li>
+      <li>Site Inspections | QA/QC</li>
+      <li>Microsoft Project | MS Office</li>
+    </ul>
   </section>
 
   <!-- Experience Section -->
   <section id="experience" class="section">
     <h2>Experience</h2>
     <div class="timeline">
-      <div class="timeline-item">
+      <article class="timeline-item">
         <h3>Design & Planning Volunteer</h3>
         <p><strong>PFWCES – Ontario, Canada</strong> | Jan 2025 – Present</p>
         <ul>
           <li>Executed quantity takeoffs, preliminary estimates, and cost analyses.</li>
           <li>Generated CAD drawings and Revit models for structural layout.</li>
         </ul>
-      </div>
-      <div class="timeline-item">
+      </article>
+      <article class="timeline-item">
         <h3>Junior Civil Engineer</h3>
         <p><strong>Varsha Design Consultant – Ahmedabad, India</strong> | May 2022 – Mar 2023</p>
         <ul>
           <li>Produced BOQs and cost projections.</li>
           <li>Drafted structural plans and 3D models.</li>
         </ul>
-      </div>
+      </article>
     </div>
   </section>
 
@@ -74,14 +78,14 @@
   <section id="projects" class="section">
     <h2>Projects</h2>
     <div class="projects-container">
-      <div class="project-card">
+      <article class="project-card">
         <h3>25,000 sq.ft. Commercial Office Building</h3>
         <p>LOD 300 Revit model, QTO & cost estimation, technical reports.</p>
-      </div>
-      <div class="project-card">
+      </article>
+      <article class="project-card">
         <h3>Curtain Wall & Window System Simulation</h3>
         <p>Façade layouts, structural analysis, safety compliance.</p>
-      </div>
+      </article>
     </div>
   </section>
 
@@ -89,12 +93,17 @@
   <section id="contact" class="section">
     <h2>Contact Me</h2>
     <p>Email: <a href="mailto:yashasviparmar99@gmail.com">yashasviparmar99@gmail.com</a></p>
-    <p>Phone: +1 437-663-6069</p>
-    <p><a href="https://www.linkedin.com/in/yashasvi-parmar/" target="_blank">LinkedIn Profile</a></p>
+    <p>Phone: <a href="tel:+14376636069">+1 437-663-6069</a></p>
+    <p><a href="https://www.linkedin.com/in/yashasvi-parmar/" target="_blank" rel="noopener">LinkedIn Profile</a></p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Yashasvi Parmar</p>
+    <nav aria-label="Footer Navigation">
+      <a href="#about">About</a> |
+      <a href="#contact">Contact</a>
+    </nav>
   </footer>
 
   <script src="script.js"></script>
