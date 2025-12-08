@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yashasvi Parmar | Civil Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Yashasvi Parmar</div>
+    <input type="checkbox" id="menu-toggle"/>
+    <label for="menu-toggle" class="hamburger">&#9776;</label>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Hi, I’m Yashasvi Parmar</h1>
+    <p>Civil Engineer | Structural & Design Specialist</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Detail-oriented Civil Engineer with 5+ years of experience in design, structural assessment, BIM modeling, and cost estimation. Skilled in preparing technical drawings, BOQs, compliance documentation, and site inspection reports.</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <span>Structural & Civil Design</span>
+      <span>Revit, AutoCAD, Civil 3D</span>
+      <span>Quantity Takeoffs | Cost Estimation</span>
+      <span>Site Inspections | QA/QC</span>
+      <span>Microsoft Project | MS Office</span>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Design & Planning Volunteer</h3>
+        <p><strong>PFWCES – Ontario, Canada</strong> | Jan 2025 – Present</p>
+        <ul>
+          <li>Executed quantity takeoffs, preliminary estimates, and cost analyses.</li>
+          <li>Generated CAD drawings and Revit models for structural layout.</li>
+        </ul>
+      </div>
+      <div class="timeline-item">
+        <h3>Junior Civil Engineer</h3>
+        <p><strong>Varsha Design Consultant – Ahmedabad, India</strong> | May 2022 – Mar 2023</p>
+        <ul>
+          <li>Produced BOQs and cost projections.</li>
+          <li>Drafted structural plans and 3D models.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>25,000 sq.ft. Commercial Office Building</h3>
+        <p>LOD 300 Revit model, QTO & cost estimation, technical reports.</p>
+      </div>
+      <div class="project-card">
+        <h3>Curtain Wall & Window System Simulation</h3>
+        <p>Façade layouts, structural analysis, safety compliance.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:yashasviparmar99@gmail.com">yashasviparmar99@gmail.com</a></p>
+    <p>Phone: +1 437-663-6069</p>
+    <p><a href="https://www.linkedin.com/in/yashasvi-parmar/" target="_blank">LinkedIn Profile</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Yashasvi Parmar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
